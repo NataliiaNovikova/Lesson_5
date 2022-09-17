@@ -1,0 +1,75 @@
+body{
+    font-family: "Pacifico", serif;
+}
+
+.content{
+    font-family: "Lato", serif;
+    font-weight: 900;
+
+}
+
+*{
+    color: green;
+    line-height: 1.5;
+}
+
+a{
+    color: red;
+    text-shadow: 3px 6px 7px rgb(41, 0, 0);
+}
+
+.tag-p{
+    color: rgb(187, 115, 7);
+    white-space: nowrap;
+}
+
+#id-p{
+    color: blueviolet;
+    text-transform: uppercase;
+    word-spacing: 50px;
+}
+
+div.content{
+    color: blue;
+    text-indent: 50px;
+}
+
+.text.lesson{
+    color: chartreuse;
+}
+
+.book,
+.street{
+    color: cornflowerblue;
+}
+
+.title *{
+    text-align: right;
+}
+
+.content > p{
+    font-size: 30px;
+}
+
+.book ~ p{
+    font-style: italic;
+    letter-spacing: 10px;
+}
+
+.book + p{
+    text-decoration: line-through;
+}
+
+#id-div-one{
+    background-color:coral;
+    box-sizing: border-box;
+    padding: 10px 40px 100px 25px;
+    width: 400px;
+}
+
+#id-div-two {
+    background-color: rgb(80, 255, 208);
+    box-sizing: border-box;
+    margin-left: 20px;
+    margin-top: -70px;
+}
